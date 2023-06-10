@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Age-Calculator",
+    "slug": "age-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-color.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-color.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-color.png",
+        "backgroundColor": "#ffffff",
+        "android_app_id": "ca-app-pub-5281232809145309~8415693710"
+      },
+      "package": "com.narinahir.agecalculator"
+    },
+    "web": {
+      "favicon": "./assets/logo-color.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85601b58-6cb2-4167-a35e-c05b454f40bd"
+      }
+    },
+    "owner": "narinahir"
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5281232809145309~8415693710"
+  }
+}
